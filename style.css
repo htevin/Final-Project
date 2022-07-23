@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 18px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.nav__logo--title{
+    color: #3c5c90;
+}
+
+.nav__logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav__img{
+    width: 40px;
+    height: 40px;
+    margin: 0 12px 0 0;
+}
+
+.nav__lists{
+    display: flex;
+    list-style: none;
+}
+
+.nav__list{
+text-decoration: none;
+margin: 0 24px;
+font-size: 18x;
+font-weight: bold;
+color: rgb(36, 62, 99);
+
+}
+
+.nav__list--primary{
+    color: white;
+    background-color: #7133ee;
+    text-decoration: none;
+    padding: 12px 32px;
+    margin: 0 24px;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav__list:hover {
+    text-decoration: underline;
+    color: #6415ff;
+}
+
+.nav__list--primary:hover {
+    background-color: #6415ff;
+}
+
+.purple{
+    color: #6415ff;
+}
+
+.react1__description{
+display: flex;
+padding: 96px 0;
+}
+
+.react1__description--detail{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.react1__imgs{
+    width: 60%;
+}
+
+.trustbadge__img{
+    width: 100%;
+    margin-top: 16px;
+    padding-right: 128px;
+    
+}
+
+.react1__img{
+    width: 100%;
+}
+
+.react1__title{
+    font-size: 48px;
+}
+
+.react1__para{
+    margin: 32px 0;
+}
+
+.trusts{
+    margin: 80px 0 0 0;
+}
+
+.react1__para--trust{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(160, 174, 192);
+}
+
+.react1__button{
+    position: relative;
+    max-width: 438px;
+    display: flex;
+    align-items: center;
+}
+
+.button__input{
+    padding: 22px 0px 22px 32px;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid lightgray;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 300ms ease;
+}
+
+.cool__button{
+    position: absolute;
+    right: 0;
+    margin: 8px 8px 8px 0;
+    padding: 16px 0;
+    width: 160px;
+    border-radius: 9999px;
+    line-height: 1.5;
+    border: none;
+    background-color: #6415ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
