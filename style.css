@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
 
 *{
     box-sizing: border-box;
@@ -12,6 +12,10 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 p{
@@ -32,6 +36,14 @@ nav{
 
 .nav__logo--title{
     color: #3c5c90;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h3{
+    color: rgb(36, 62, 99)
 }
 
 .nav__logo:hover .nav__logo--title{
@@ -87,6 +99,10 @@ color: rgb(36, 62, 99);
     background-color: #6415ff;
 }
 
+.btn__learn:hover {
+    background-color: #420faa;
+}
+
 .purple{
     color: #6415ff;
 }
@@ -110,6 +126,7 @@ padding: 96px 0;
     width: 100%;
     margin-top: 16px;
     padding-right: 128px;
+    opacity: 0.5;
     
 }
 
@@ -183,18 +200,19 @@ padding: 96px 0;
 }
 
 .features__para{
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(124, 139, 161);
-    max-width: 500px;
+    max-width: 600px;
     text-align: center;
     margin: 0 auto;
-    font-weight: bold;
+    font-weight: 500px;
     margin-top: 16px;
 }
 
 .feature__services{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     margin-top: 40px;
 }
 
@@ -216,8 +234,340 @@ padding: 96px 0;
 }
 
 .features__container--para{
+    color: rgb(124, 139, 161);
     margin-top: 16px;
     width: 250px;
+    font-size: 16px;
+    font-weight: 500;
 }
+
+.quality__description{
+    display: flex;
+    flex-direction: row;
+}
+
+.quality__descript{
+    width: 50%;
+    margin-right: 64px;
+}
+
+.quality__figure{
+    width: 50%;
+}
+
+.quality__img{
+    width: 100%;
+}
+
+
+
+.quality__h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #243e63;
+    padding-top: 16px;
+}
+
+.quality__caption{
+    color:rgb(100, 21, 255);
+    font-size: 16px;
+}
+
+.button__purple{
+   margin-top: 32px;
+  
+}
+
+.btn__learn{
+    background-color:rgb(100, 21, 255);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 12px 32px;
+    font-weight: 700;
+}
+
+
+.quality__para{
+    color: rgb(124, 139, 161);
+    margin-top: 16px;
+}
+
+.steps{
+    display: flex;
+}
+
+.steps__figure{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.steps__img{
+    width: 100%;
+}
+
+.steps__description{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 64px;
+}
+
+.steps__title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #243e63;
+    margin-top: 16px;
+}
+
+.steps__subtitle{
+    color:rgb(100, 21, 255);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.steps__steps{
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__small{
+    display: flex;
+}
+
+.step__h2{
+    color: rgb(36, 62, 99);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.steps__small--h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #cbd5e0;
+}
+
+.steps__small{
+    margin-top: 32px;
+}
+
+.steps__word{
+    margin-left: 24px;
+}
+
+.values__button{
+    margin-top: 48px;
+    width: 150px;
+}
+
+.values{
+    width: 100%;
+    display: flex;
+}
+
+.values__description{
+    width: 50%;
+    margin-right: 64px;
+}
+.values__figure{
+    width: 50%;
+}
+.values__img{
+    width: 100%;
+}
+
+.values__subtitle{
+    color:rgb(100, 21, 255);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.values__title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #243e63;  
+    margin-top: 16px;
+}
+
+.values__description{
+    display: flex;
+    flex-direction: column;
+}
+
+.values__af-pro{
+    display: flex;
+}
+
+.values__money, .suitcase{
+    display: flex;
+    align-items: center;
+    
+}
+.values__para{
+    color: rgb(124, 139, 161);
+    font-size: 18px;
+    margin-top: 32px;
+}
+.values__para--small{
+    font-size: 16px;
+    margin-top: 16px;
+    color: rgb(113, 128, 150);
+}
+
+.values__af-pro{
+    margin-top: 32px;
+}
+
+.suitcase__i{
+color: rgb(155, 44, 44);
+    
+}
+
+.values__caption{
+font-size: 20px;
+margin-left: 12px;
+color: rgb(36, 62, 99);
+}
+
+.values__affordable{
+    margin-right: 32px;
+}
+
+.dollar__border{
+    background-color: rgb(154, 230, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50px;
+    color: rgb(39, 103, 73);
+    width: 36px;
+    height: 36px;
+}
+
+.suitcase__i{
+    background-color:rgb(254, 178, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50px;
+    color: rgb(155, 44, 44);
+    width: 36px;
+    height: 36px;
+}
+
+.header_container{
+    margin-top: 40px;
+}
+
+.pricing__h2{
+    color: rgb(100, 21, 255);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.pricing__h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #243e63;
+    text-align: center;
+}
+
+.pricing__para{
+    margin: 0 auto;
+    color: rgb(124, 139, 161);
+    font-size: 18px;
+    text-align: center;
+    max-width: 36rem;
+    margin-top: 16px;
+}
+
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    
+}
+
+.plan__card{
+    border:  1px solid rgb(229, 231, 235);
+    border-radius: 8px;
+}
+
+
+
+
+
+.plan__top{
+    display: flex;
+    flex-direction: column;
+    padding: 32px
+}
+
+.middle__border{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.last__border{
+    padding: 32px
+}
+
+
+
+.name{
+font-size: 20px;
+color: black;
+font-weight: 700;
+text-align: center;
+text-transform: capitalize;
+}
+.price{
+margin: 4px 0;
+font-size: 48px;
+font-weight: 700;
+text-align: center;
+}
+.duration{
+color: rgb(160, 174, 192);
+text-align: center;
+font-size: 16px;
+}
+
+.middle__border{
+    padding: 32px;
+}
+
+.feature__main{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.feature{
+   text-align: center;
+   font-weight: 500;
+   margin-top: 20px; 
+   color: rgb(113, 128, 150);
+}
+
+.border1{
+    border: solid 1px rgb(229, 231, 235);
+}
+
+
+
 
 
