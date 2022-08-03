@@ -750,6 +750,7 @@ font-weight: 700;
 .link{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 32px 0 32px;
 }
 
 .footer__lists{
@@ -828,6 +829,7 @@ font-weight: 700;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 32px 0 32px;
 }
 
 .social__lists{
@@ -839,6 +841,132 @@ font-weight: 700;
     background-color: rgb(203, 213, 224);
 }
 
+
+@media (max-width: 1024px) {
+.react1__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.react1__description--detail{
+    max-width: 512px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.react1__title{
+    font-size: 30px;
+}
+
+.react1__para{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.react1__para--trust{
+    display: flex;
+    justify-content: center;
+}
+.trustbadge__img{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.trusts{
+    margin-top: 48px;
+}
+.react1__button{
+    width: 100%;
+}
+
+.features__title{
+    font-size: 36px;
+
+}
+.features__para{
+    font-size: 16px;
+}
+
+.feature__service{
+    width: calc(100% / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.quality__h1{
+    font-size: 36px;
+    width: 100%;
+}
+
+.quality__description{
+    margin: 0 16px;
+}
+
+.steps__title{
+    font-size: 36px;
+}
+.values__title{
+    font-size: 36px;
+
+}
+
+.values__af-pro{
+    display: flex;
+    flex-direction: column;
+}
+
+.values__affordable{
+    margin-bottom: 36px;
+}
+
+.values__Pro{
+    margin-top: 8px;
+}
+
+.values__para--small{
+   width: 300px;
+}
+
+.values{
+    margin: 0 24px;
+}
+.plans{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan{
+    width: 100%;
+    max-width: 450px;
+}
+
+
+.lastpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.h1__lastpart{
+    margin-bottom: 20px;
+}
+
+}
 
 
 
