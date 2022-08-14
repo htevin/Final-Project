@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com//c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -26,6 +27,37 @@
                 <li><a class="nav__list" href="">Login</a></li>
                 <li><a class="nav__list--primary" href="">Sign Up</a></li>
             </ul>
+
+            <button class="btn__menu--burger" onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+                <button class="btn__menu--burger btn__menu--close" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+                    <ul>
+                        <li class="menu__list">
+                            <a href="" class="menu__linkk">About</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="menu__linkk">Blog</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="menu__linkk">Pricing</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="menu__linkk">Contact Us</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="menu__linkk">Login</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="" class="menu__linkk meun__linkk-purple">Sign Up</a>
+                        </li>
+                    </ul>
+                
+            </div>
+
 
         </nav>
     </div>
@@ -148,21 +180,21 @@
                                 <h1 class="steps__small--h1">01</h1>
                                 <div class="steps__word">
                                     <h2 class="step__h2">Register</h2>
-                                    <p>Create an account with us using Google or Facebook.</p>
+                                    <p class="stepee__para">Create an account with us using Google or Facebook.</p>
                                 </div>
                             </div>
                             <div class="steps__small">
                                 <h1 class="steps__small--h1">02</h1>
                                 <div class="steps__word">
                                     <h2 class="step__h2">Download</h2>
-                                    <p>Browse and Download the template that you like from the marketplace.</p>
+                                    <p class="stepee__para">Browse and Download the template that you like from the marketplace.</p>
                                 </div>
                             </div>
                             <div class="steps__small">
                                 <h1 class="steps__small--h1">03</h1>
                                 <div class="steps__word">
                                     <h2 class="step__h2">Run</h2>
-                                    <p>Follow the instructions to setup and customize the template to your needs.</p>
+                                    <p class="stepee__para">Follow the instructions to setup and customize the template to your needs.</p>
                                 </div>
                             </div>
                         </div>
