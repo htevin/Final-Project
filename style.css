@@ -1074,7 +1074,8 @@ font-weight: 700;
   .react1__imgs{ margin-top: 30px;}
 
 .quality__figure{
-width: 70%;
+    max-width: 448px;
+    width: 100%;
 }
 
 .quality__descript{
@@ -1087,7 +1088,8 @@ width: 70%;
     align-items: center;
 }
 .steps__figure{
-    width: 70%;
+    max-width: 448px;
+    width: 100%;
 }
 
 .steps__description{
@@ -1098,6 +1100,18 @@ width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.steps__subtitle{
+    text-align: center;
+}
+
+.steps__description{
+    margin: 50px 0 0 0;
+}
+
+.quality__descript{
+    margin: 50px 0 0 0;
 }
 
 .step__h2{
@@ -1122,28 +1136,57 @@ width: 70%;
 }
 
 .values__figure{
-    width: 70%;
+    max-width: 448px;
+    width: 100%;
 }
-.values__subtitle{
-    text-align: center;
+.values__description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
+.values__description{
+    margin: 0;
 }
-.values__para{
-    text-align: center;
-}
-.values__title{
-    text-align: center;
+
+.suitcase{
+    justify-content: center;
 }
 
 .values__money{
     justify-content: center;
 }
+
 .values__para--small{
     text-align: center;
 }
 
-.suitcase{
-    justify-content: center;
+.values__para{
+    text-align: center;
+}
+
+.values__figure{
+    margin-bottom: 50px;
+}
+
+.pricing__h1{
+    font-size: 36px;
+}
+
+.pricing__para{
+    font-size: 14px;
+}
+
+.pricing__h2{
+    text-align: center;
+}
+
+.values{
+    margin: 0;
+}
+
+.values__title{
+    text-align: center;
 }
 
 .values__button{
@@ -1152,9 +1195,91 @@ width: 70%;
    justify-content: center;
 }
 
+.values__description{
+    max-width: 448px;
+    width: 100%;
+}
+
+.quality__descript{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+}
 
 
+.quality__para{
+    text-align: center;
+}
 
+.button__purple .btn__learn{
+    max-width: 150px;
+    width: 100%;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials__fig1{
+    max-width: 448px;
+    width: 100%;
+}
+
+.testimonials__desription{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials__h1{
+    text-align: center;
+}
+
+.testimonials_para{
+    text-align: center;
+}
+
+.testimonials_para{
+    text-align: center;
+}
+.testimonials__desription{
+    max-width: 448px;
+    width: 100%;
+}
+
+.testimonials__h1{
+    font-size: 36px;
+}
+
+.user__span{
+    margin-top: 16px;
+}
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.footer__lists{
+    width: calc(100% / 3);
+    margin-top: 40px;
+    
+}
+.footer__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__trademark{
+    margin: 32px 0 32px 0;
+}
 
 }
 
